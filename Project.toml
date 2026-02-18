@@ -1,0 +1,17 @@
+[deps]
+Bootstrap = "e28b5b4c-05e8-5b66-bc03-6f0c0a0a06e0"
+CategoricalArrays = "324d7699-5711-5eae-9e2f-1d82baa6b597"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
+PDMPFlux = "fa921718-cbf9-4165-aaee-7047d51b02b3"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+PolyLog = "85e3b03c-9856-11eb-0374-4dc1f8670e7f"
+ProgressBars = "49802e3a-d2f1-5c88-81d8-b72133a6f568"
+SpecialFunctions = "276daf66-3868-5448-9aa4-cd146d93841b"
+StatsPlots = "f3b207a7-027a-5e70-b257-86293d7955fd"
+
+[compat]
+PDMPFlux = "0.4.5"
+julia = "1.12"
