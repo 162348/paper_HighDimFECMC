@@ -4,11 +4,12 @@ This repository is a companion repository for the paper:
 
 > **Diffusive Scaling Limits of Forward Event-Chain Monte Carlo: Provably Efficient Exploration with Partial Refreshment**
 
-It contains Julia scripts that generate the Monte Carlo data and produce the plots used in Section 5 of the paper.
+It contains Julia scripts that generate the Monte Carlo data and produce the plots used in the paper.
 
-## Requirements
+## Requirements (see `Project.toml`)
 
-- Julia **1.12** (see `Project.toml`)
+- `Julia` **1.12**
+- `PDMPFlux` **0.4.5**
 
 ## Installation
 
@@ -68,7 +69,7 @@ Each figure is produced in two steps:
   - Data: `Section5-3/2-AnisoGauss.jl` → `Section5-3/Data/2-AnisoGauss.jld2`
   - Plot: `Section5-3/2-plot_AG.jl`
 
-Note: `Section5-3/2-plot_AG.jl` also reads `Section5-1/Data/3-AnisoGauss.jld2` to obtain a reference scale.
+Note: `Section5-3/2-plot_AG.jl` also reads `Section5-1/Data/3-AnisoGauss.jld2` to obtain a proxy for the true value.
 
 ## Notes on runtime
 
@@ -77,4 +78,12 @@ If you only want to check that things run end-to-end, use the short mode describ
 
 ## Citation
 
-If you use this repository, please cite the accompanying paper. (Add arXiv/DOI information here.)
+If you use this repository, please cite the accompanying paper.
+
+```bibtex
+@article{Shiba-Kamatani2026FECMC,
+  author  = {Hirofumi Shiba and Kengo Kamatani},
+  title   = {Diffusive Scaling Limits of Forward Event-Chain Monte Carlo: Provably Efficient Exploration with Partial Refreshment},
+  year    = {2026},
+}
+```
