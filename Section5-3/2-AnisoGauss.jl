@@ -135,7 +135,7 @@ function Experiment_once(d::Int, T::Float64, FECMC)
   vinit = vinit ./ sqrt(sum(vinit.^2))
 
   BM_h, _ = BM_estimate_online(FECMC, d * T, xinit, vinit; B=311)
-  BM_g = BM_estimate_online(FECMC, d * T, xinit, vinit; B= floor(Int, 2 * 10^4 * d^(1/2)))
+  _, BM_g = BM_estimate_online(FECMC, d * T, xinit, vinit; B= floor(Int, 2 * 10^4 * d^(1/2)))
 
   return BM_h, BM_g
 end
