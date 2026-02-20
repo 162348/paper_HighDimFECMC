@@ -85,5 +85,9 @@ If you use this repository, please cite the accompanying paper.
   author  = {Hirofumi Shiba and Kengo Kamatani},
   title   = {Diffusive Scaling Limits of Forward Event-Chain Monte Carlo: Provably Efficient Exploration with Partial Refreshment},
   year    = {2026},
+  eprint={2602.17087},
+  archivePrefix={arXiv},
+  primaryClass={math.PR},
+  url={https://arxiv.org/abs/2602.17087}, 
 }
 ```
